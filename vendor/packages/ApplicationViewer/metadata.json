@@ -1,0 +1,21 @@
+{
+  "type"    : "Application",
+  "name"    : "Viewer",
+  "schema"  : "schema.glade",
+  "category": "graphics",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "mimetypes/image-x-generic.png",
+  "title"   : {
+    "en_US"     : "Image Viewer",
+    "nb_NO"     : "Bilde Visning"
+  },
+  "mime"    : [
+    "image/*"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

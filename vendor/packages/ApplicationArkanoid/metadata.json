@@ -1,0 +1,18 @@
+{
+  "type"    : "Application",
+  "name"    : "Arkanoid",
+  "schema"  : "schema.glade",
+  "category": "games",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "emblems/emblem-new.png",
+  "title"   : {
+    "en_US"     : "Arkanoid"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

@@ -1,0 +1,18 @@
+{
+  "type"    : "PanelItem",
+  "name"    : "Weather",
+  "enabled" : true,
+  "icon"    : "status/weather-few-clouds.png",
+  "title"   : {
+    "en_US"     : "Weather",
+    "nb_NO"     : "Været"
+  },
+  "description" : {
+    "en_US"   : "Weather notification",
+    "nb_NO"   : "Værnotifikasjon"
+  },
+  "resource" : [
+    "main.css",
+    "main.js"
+  ]
+}

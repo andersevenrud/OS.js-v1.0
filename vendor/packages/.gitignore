@@ -1,0 +1,10 @@
+# Common
+.git-old
+_work/
+*.*.sw*
+.vimerr
+vim.session
+*.php
+
+# Minimized files
+.compress

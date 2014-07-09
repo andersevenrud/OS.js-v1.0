@@ -1,0 +1,13 @@
+{
+  "type"    : "Service",
+  "name"    : "Noop",
+  "enabled" : true,
+  "icon"    : "status/network-idle.png",
+  "title"   : {
+    "en_US"     : "Service with no function",
+    "nb_NO"     : "Tjener uten funksjon"
+  },
+  "resource" : [
+    "main.js"
+  ]
+}

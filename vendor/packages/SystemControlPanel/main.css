@@ -1,0 +1,347 @@
+@charset "UTF-8";
+/*!
+ * OS.js - JavaScript Operating System - Contains SystemControlPanel CSS
+ *
+ * Copyright (c) 2011-2012, Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met: 
+ * 
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer. 
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution. 
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @package OSjs.Applications
+ * @author Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */
+
+.SystemControlPanel {
+}
+
+/* MAIN */
+
+.SystemControlPanel .ControlPanel {
+  position : absolute;
+  top : -5px;
+  left : -5px;
+  right : -5px;
+  bottom : 30px;
+  background : #fff;
+}
+.SystemControlPanel .ControlPanel .Buttons {
+  position : absolute;
+  left : 0px;
+  right : 4px;
+  bottom : -31px;
+  text-align : right;
+}
+.SystemControlPanel .ControlPanel .Buttons button {
+  margin : 5px;
+}
+
+.SystemControlPanel .ControlPanel .Main {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  bottom : 0px;
+}
+.SystemControlPanel .ControlPanel .Main .CMenu {
+  position : absolute;
+  top : 1px;
+  left : 0px;
+  bottom : 1px;
+  width : 100px;
+  overflow : none;
+
+  border-right : 1px solid #e6e6e6;
+}
+.SystemControlPanel .ControlPanel .Main .CMenu ul {
+  margin : 0;
+  padding : 0;
+  list-style-type : none;
+}
+.SystemControlPanel .ControlPanel .Main .CMenu li {
+  display : block;
+  margin : 10px;
+}
+.SystemControlPanel .ControlPanel .Main .CMenu .Title,
+.SystemControlPanel .ControlPanel .Main .CMenu .Icon {
+  text-align : center;
+}
+.SystemControlPanel .ControlPanel .Main .CMenu li:hover .Title {
+  text-decoration : underline;
+}
+.SystemControlPanel .ControlPanel .Main .CMenu li.Current,
+.SystemControlPanel .ControlPanel .Main .CMenu li.Current:hover {
+  text-decoration : underline;
+}
+.SystemControlPanel .ControlPanel .Main .Content {
+  position : absolute;
+  top : 1px;
+  left : 101px;
+  bottom : 1px;
+  right : 0px;
+  overflow : auto;
+}
+.SystemControlPanel .ControlPanel .Main .Content .Inner {
+  padding : 10px;
+}
+.SystemControlPanel .ControlPanel .Main .Content h1 {
+  margin : 0;
+  padding : 0;
+  margin-bottom : 10px;
+}
+
+
+/* Content: User */
+.SystemControlPanel .IUser {
+}
+.SystemControlPanel .IUser .pri {
+  width : 100px;
+  font-weight : bold;
+}
+.SystemControlPanel .IUser td {
+  vertical-align : top;
+}
+.SystemControlPanel .IUser .Avatar {
+  position : absolute;
+  top : 10px;
+  right : 10px;
+}
+
+/* Content: Settings */
+.SystemControlPanel .ISettings {
+}
+
+.SystemControlPanel .ISettings .Snapshots,
+.SystemControlPanel .ISettings .Autoruns {
+  margin-top : 10px;
+  width : 460px;
+}
+
+.SystemControlPanel .ISettings .Snapshots select,
+.SystemControlPanel .ISettings .Autoruns select {
+  width : 460px;
+  height : 100px;
+  margin : -1px;
+  border : 1px solid #000;
+  background : #fff;
+}
+
+.SystemControlPanel .ISettings .SessionButtons,
+.SystemControlPanel .ISettings .ProcessButtons {
+  text-align : right;
+  margin : -2px;
+  margin-top : 10px;
+}
+.SystemControlPanel .ISettings .SessionButtons button,
+.SystemControlPanel .ISettings .ProcessButtons button {
+}
+
+.SystemControlPanel .ISettings .CreateSession,
+.SystemControlPanel .ISettings .CreateProcess {
+  margin-top : 10px;
+}
+.SystemControlPanel .ISettings .CreateSession label,
+.SystemControlPanel .ISettings .CreateProcess label {
+  width : 156px;
+  display : block;
+  float : left;
+  padding : 2px;
+  margin : 0;
+}
+.SystemControlPanel .ISettings .CreateSession input,
+.SystemControlPanel .ISettings .CreateProcess input {
+  width : 300px;
+  margin : -1px;
+  border : 1px solid #000;
+  background : #fff;
+}
+
+/* Content: Registry */
+
+.SystemControlPanel .IRegistry {
+  overflow : auto;
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  bottom : 0px;
+  padding : 5px;
+}
+.SystemControlPanel .IRegistry ul.First {
+  margin-left : 0;
+}
+.SystemControlPanel .IRegistry ul {
+  padding : 0;
+  margin-left : 10px;
+}
+.SystemControlPanel .IRegistry ul ul {
+  margin-left : 0px;
+}
+.SystemControlPanel .IRegistry li {
+  padding : 0;
+  margin : 0;
+}
+.SystemControlPanel .IRegistry li .data {
+  background : #e6e6e6;
+  /*
+  font-family : Monospace;
+  font-size  :12px;
+  white-space : pre;
+  word-wrap : break-word;
+  */
+  padding : 5px;
+}
+.SystemControlPanel .IRegistry li .data input,
+.SystemControlPanel .IRegistry li .data textarea {
+  border : 0 none;
+  resize : none;
+  padding : 2px;
+  background : #fff;
+  width : 99%;
+  font-family : Monospace;
+  font-size  :12px;
+}
+.SystemControlPanel .IRegistry li .data input {
+}
+.SystemControlPanel .IRegistry li .data textarea {
+  /*word-wrap : break-word;*/
+  height : 200px;
+}
+
+.SystemControlPanel .IRegistry li {
+  vertical-align : middle;
+  list-style-type : none;
+}
+.SystemControlPanel .IRegistry ul li.Sub {
+  background : url('/img/bullet_go.png') no-repeat left top;
+  padding-left : 16px;
+}
+.SystemControlPanel .IRegistry ul li.Key {
+  background : url('/img/bullet_key.png') no-repeat left top;
+  padding-left : 16px;
+}
+.SystemControlPanel .IRegistry ul li.Root {
+  background : url('/img/bullet_black.png') no-repeat left top;
+  padding-left : 16px;
+}
+.SystemControlPanel .IRegistry ul li.Root span.Bold {
+  font-weight : bold;
+}
+
+/* Content: Localization */
+.SystemControlPanel .ILocalization {
+}
+.SystemControlPanel .ILocalization .pri {
+  width : 120px;
+}
+.SystemControlPanel .ILocalization input,
+.SystemControlPanel .ILocalization select {
+  width : 320px;
+}
+
+/* Content: Packages */
+
+.SystemControlPanel .IPackages {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  bottom : 0px;
+}
+.SystemControlPanel .PackageOptions {
+  line-height : 30px;
+}
+.SystemControlPanel .PackageList {
+  position : absolute;
+  top : 90px;
+  left : 10px;
+  right : 10px;
+  bottom : 0px;
+  overflow : auto;
+}
+.SystemControlPanel .GUICheckList {
+}
+.SystemControlPanel .GUICheckList li {
+  position : relative;
+  display : block;
+}
+.SystemControlPanel .GUICheckList li.even {
+  background : #fafafa;
+}
+.SystemControlPanel .GUICheckList input {
+  position : absolute;
+  right : 5px;
+  top : 20px;
+}
+.SystemControlPanel .GUICheckList .Item {
+  position : relative;
+  padding : 5px;
+  margin-right : 20px;
+}
+.SystemControlPanel .GUICheckList .Item img {
+  display : block;
+  width : 32px;
+  height : 32px;
+  position : absolute;
+  top : 5px;
+  left : 5px;
+}
+.SystemControlPanel .GUICheckList .Item label {
+  display : block;
+  margin-left : 42px;
+}
+.SystemControlPanel .GUICheckList .Item span.type {
+  display : block;
+  margin-left : 42px;
+  font-weight : bold;
+}
+.SystemControlPanel .GUICheckList .Item span.active {
+  color : #00aa00;
+}
+.SystemControlPanel .GUICheckList .Item span.inactive {
+  color : #ffc800;
+}
+.SystemControlPanel .GUICheckList .Item span.protected {
+  color : #aa0000;
+}
+
+/* Content: UI */
+.SystemControlPanel .IUI .pri {
+  width : 150px;
+  font-weight : bold;
+}
+.SystemControlPanel .IUI input,
+.SystemControlPanel .IUI select {
+  width : 270px;
+}
+.SystemControlPanel .IUI input.Browse {
+  width : 240px;
+}
+.SystemControlPanel .IUI input.ColorChooser {
+  cursor : pointer;
+  color : #fff;
+  text-align : center;
+  font-size : 90%;
+}
+.SystemControlPanel .IUI .ui-slider {
+  margin : 5px;
+  width : 255px;
+}

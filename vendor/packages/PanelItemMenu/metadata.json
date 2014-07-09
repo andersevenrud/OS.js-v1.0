@@ -1,0 +1,18 @@
+{
+  "type"    : "PanelItem",
+  "name"    : "Menu",
+  "enabled" : true,
+  "icon"    : "actions/window_new.png",
+  "title"   : {
+    "en_US"     : "Menu",
+    "nb_NO"     : "Meny"
+  },
+  "description" : {
+    "en_US"   : "Menu button",
+    "nb_NO"   : "Meny knapp"
+  },
+  "resource" : [
+    "main.css",
+    "main.js"
+  ]
+}

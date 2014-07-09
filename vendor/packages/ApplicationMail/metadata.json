@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "Mail",
+  "schema"  : "schema.glade",
+  "category": "internet",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "status/mail-unread.png",
+  "title"   : {
+    "en_US"     : "Mail",
+    "nb_NO"     : "Epost"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

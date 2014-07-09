@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/*!
+ * OS.js - JavaScript Operating System - Contains ApplicationMail CSS
+ *
+ * Copyright (c) 2011-2012, Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met: 
+ * 
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer. 
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution. 
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @package OSjs.Applications
+ * @author Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */
+
+.ApplicationMail {
+
+}
+.ApplicationMail iframe {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  bottom : 0px;
+  border : 0 none;
+  margin : 0;
+  padding : 0;
+  background : #fff;
+}
+
+/* Main */
+.ApplicationMail .window_main .box2 {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  bottom : 0px;
+  margin : 0px;
+}
+.ApplicationMail .window_main .box2 .Position_0 {
+  display : block;
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  bottom : 0px;
+  width : 200px;
+  margin : 5px;
+}
+.ApplicationMail .window_main .box2 .Position_1 {
+  display : block;
+  position : absolute;
+  top : 0px;
+  left : 205px;
+  right : 0px;
+  bottom : 0px;
+  margin : 5px;
+}
+
+.ApplicationMail .window_main .GtkIconView {
+  background : #fff;
+  color : #000;
+  overflow : auto;
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  bottom : 0px;
+}
+.ApplicationMail .window_main .iconview_list {
+}
+.ApplicationMail .window_main .iconview_list.Disabled {
+  color : #e6e6e6 !important;
+}
+  .ApplicationMail .window_main .iconview_list div {
+    margin : 5px;
+    cursor : pointer;
+  }
+  .ApplicationMail .window_main .iconview_list div.Current {
+    font-weight : bold;
+  }
+
+.ApplicationMail .window_main .iconview_mail {
+}
+.ApplicationMail .window_main .iconview_mail.Disabled {
+  color : #e6e6e6 !important;
+}
+  .ApplicationMail .window_main .iconview_mail div {
+    padding : 5px;
+    cursor : pointer;
+    position : relative;
+    padding-left : 30px;
+    height : 30px;
+    background : #fff;
+  }
+  .ApplicationMail .window_main .iconview_mail div:nth-child(odd) {
+    background : #dadada;
+  }
+  .ApplicationMail .window_main .iconview_mail div.Current {
+    background : #e6e6e6;
+  }
+
+  .ApplicationMail .window_main .iconview_mail input {
+    background : #e6e6e6;
+    margin : 0;
+    padding : 0;
+    border : 1px solid;
+    background : #fff;
+    outline : none;
+    position : absolute;
+    width : 10px;
+    height : 10px;
+    top : 14px;
+    left : 10px;
+  }
+
+    .ApplicationMail .window_main .iconview_mail .unread span {
+      font-weight : bold;
+    }
+
+  .ApplicationMail .window_main .iconview_mail span.Sender {
+  }
+  .ApplicationMail .window_main .iconview_mail span.Sender {
+  }
+  .ApplicationMail .window_main .iconview_mail span.Date {
+    color : #333;
+    padding-left : 10px;
+    line-height : 12px;
+    font-size : 10px;
+  }
+  .ApplicationMail .window_main .iconview_mail.Disabled span.Date {
+    color : inherit;
+  }
+  .ApplicationMail .window_main .iconview_mail span.Subject {
+    display : block;
+  }
+
+/* Composer */
+.ApplicationMail .window_compose .GtkLabel {
+  font-weight : bold;
+}
+.ApplicationMail .window_compose .Position_2 {
+  margin : 5px;
+  margin-top : 0;
+}
+.ApplicationMail .window_compose .GtkGrid {
+  height : 55px;
+  margin : 8px;
+}
+  .ApplicationMail .window_compose .GtkGrid input {
+    position : absolute;
+    top : 0px;
+    left : -5px;
+    right : -5px;
+    bottom : 0px;
+    display : block;
+    font-size : 12px;
+    padding : 2px;
+    font-family : Arial;
+    border : 0 none;
+    display : block;
+  }
+  .ApplicationMail .window_compose .GtkGrid span {
+    height : 20px;
+    line-height : 20px;
+    font-weight : bold;
+  }
+
+  .ApplicationMail .window_compose .GtkGrid .GtkBoxPackage {
+    height : 20px;
+    padding : 2px;
+    position : absolute;
+  }
+  .ApplicationMail .window_compose .GtkGrid .GtkBoxPackage:nth-child(1) {
+    top : 0px;
+    left : 0px;
+  }
+  .ApplicationMail .window_compose .GtkGrid .GtkBoxPackage:nth-child(2) {
+    bottom : 0px;
+    left : 0px;
+  }
+  .ApplicationMail .window_compose .GtkGrid .GtkBoxPackage:nth-child(3) {
+    top : 0px;
+    left : 70px;
+    right : 0px;
+  }
+  .ApplicationMail .window_compose .GtkGrid .GtkBoxPackage:nth-child(4) {
+    bottom : 0px;
+    left : 70px;
+    right : 0px;
+  }
+
+/* Reader */
+
+/* Options */
+.ApplicationMail .window_options {
+  padding : 5px;
+}
+  .ApplicationMail .window_options table {
+    margin-bottom : 10px;
+    width : 100%;
+  }
+
+  .ApplicationMail .window_options table tr td:first-child{
+    width : 100px;
+  }
+
+  .ApplicationMail .window_options .Buttons {
+    position : absolute;
+    bottom : 0;
+    right : 0;
+  }
+
+  .ApplicationMail .window_options div button {
+    margin : 5px;
+  }
+
+  .ApplicationMail .window_options .Header {
+    font-weight : bold;
+    padding-bottom : 5px;
+  }
+
+  .ApplicationMail .window_options table input {
+    width : 97%;
+  }
+

@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "ProcessingJS",
+  "schema"  : "",
+  "category": "unknown",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "emblems/emblem-system.png",
+  "title"   : {
+    "en_US"     : "ProcessingJS",
+    "nb_NO"     : "ProcessingJS"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

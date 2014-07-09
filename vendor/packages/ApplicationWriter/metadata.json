@@ -1,0 +1,21 @@
+{
+  "type"    : "Application",
+  "name"    : "Writer",
+  "schema"  : "schema.glade",
+  "category": "office",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "apps/libreoffice34-writer.png",
+  "title"   : {
+    "en_US"     : "Writer",
+    "nb_NO"     : "Skriveprogram"
+  },
+  "mime"    : [
+    "text/*"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

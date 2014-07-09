@@ -1,0 +1,23 @@
+{
+  "type"    : "Application",
+  "name"    : "VideoPlayer",
+  "schema"  : "schema.glade",
+  "category": "multimedia",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "mimetypes/video-x-generic.png",
+  "title"   : {
+    "en_US"     : "Video Player",
+    "nb_NO"     : "Videoavspiller"
+  },
+  "mime"    : [
+    "video/*"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : [
+    "video"
+  ]
+}

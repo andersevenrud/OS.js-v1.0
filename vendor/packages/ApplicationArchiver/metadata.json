@@ -1,0 +1,25 @@
+{
+  "type"    : "Application",
+  "name"    : "Archiver",
+  "schema"  : "schema.glade",
+  "category": "utilities",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "mimetypes/package-x-generic.png",
+  "title"   : {
+    "en_US"     : "File Archiver",
+    "nb_NO"     : "Filarkivering"
+  },
+  "mime"    : [
+    "application/zip",
+    "application/x-bzip2",
+    "application/x-gzip",
+    "application/x-rar",
+    "application/x-tar"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

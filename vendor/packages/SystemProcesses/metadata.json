@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "Processes",
+  "schema"  : "schema.glade",
+  "enabled" : true,
+  "system"  : true,
+  "category": "system",
+  "icon"    : "apps/utilities-system-monitor.png",
+  "title"   : {
+    "en_US"     : "Process Information",
+    "nb_NO"     : "Prosessinformasjon"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

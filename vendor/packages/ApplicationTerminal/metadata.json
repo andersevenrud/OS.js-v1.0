@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "Terminal",
+  "schema"  : "schema.glade",
+  "category": "utilities",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "apps/utilities-terminal.png",
+  "title"   : {
+    "en_US"     : "Terminal",
+    "nb_NO"     : "Terminal"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

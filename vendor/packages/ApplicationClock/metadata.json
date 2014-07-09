@@ -1,0 +1,20 @@
+{
+  "type"    : "Application",
+  "name"    : "Clock",
+  "schema"  : "schema.glade",
+  "category": "utilities",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "status/appointment-soon.png",
+  "title"   : {
+    "en_US"     : "Clock",
+    "nb_NO"     : "Klokke"
+  },
+  "mime"    : [
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

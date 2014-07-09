@@ -1,0 +1,21 @@
+{
+  "type"    : "Application",
+  "name"    : "Browser",
+  "schema"  : "schema.glade",
+  "category": "internet",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "apps/web-browser.png",
+  "title"   : {
+    "en_US"     : "HTML Browser",
+    "nb_NO"     : "HTML Leser"
+  },
+  "mime"    : [
+    "text/html"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

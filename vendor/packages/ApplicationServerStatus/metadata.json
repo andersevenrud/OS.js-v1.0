@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "ServerStatus",
+  "schema"  : "schema.glade",
+  "category": "unknown",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "status/network-transmit-receive.png",
+  "title"   : {
+    "en_US"     : "Server Status",
+    "nb_NO"     : "Server Status"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

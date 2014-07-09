@@ -1,0 +1,24 @@
+{
+  "type"    : "Application",
+  "name"    : "MusicPlayer",
+  "schema"  : "schema.glade",
+  "category": "multimedia",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "status/audio-volume-high.png",
+  "title"   : {
+    "en_US"     : "Music Player",
+    "nb_NO"     : "Musikkspiller"
+  },
+  "mime"    : [
+    "audio/*",
+    "application/x-winamp-playlist"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : [
+    "audio"
+  ]
+}

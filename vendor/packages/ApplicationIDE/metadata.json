@@ -1,0 +1,18 @@
+{
+  "type"    : "Application",
+  "name"    : "IDE",
+  "schema"  : "schema.glade",
+  "category": "development",
+  "enabled" : false,
+  "system"  : false,
+  "icon"    : "categories/applications-development.png",
+  "title"   : {
+    "en_US"     : "IDE"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

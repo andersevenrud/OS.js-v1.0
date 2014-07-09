@@ -1,0 +1,21 @@
+{
+  "type"    : "Application",
+  "name"    : "PDF",
+  "schema"  : "schema.glade",
+  "category": "office",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "mimetypes/gnome-mime-application-pdf.png",
+  "title"   : {
+    "en_US"     : "PDF Viewer",
+    "nb_NO"     : "PDF Leser"
+  },
+  "mime"    : [
+    "application/pdf"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

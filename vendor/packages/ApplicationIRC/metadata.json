@@ -1,0 +1,20 @@
+{
+  "type"    : "Application",
+  "name"    : "IRC",
+  "schema"  : "schema.glade",
+  "category": "internet",
+  "enabled" : false,
+  "system"  : false,
+  "icon"    : "apps/system-users.png",
+  "title"   : {
+    "en_US"     : "IRC"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : [
+    "socket"
+  ]
+}

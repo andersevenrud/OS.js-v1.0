@@ -1,0 +1,18 @@
+{
+  "type"    : "PanelItem",
+  "name"    : "Clock",
+  "enabled" : true,
+  "icon"    : "status/network-idle.png",
+  "title"   : {
+    "en_US"     : "Clock",
+    "nb_NO"     : "Klokke"
+  },
+  "description" : {
+    "en_US"   : "Clock with date",
+    "nb_NO"   : "Klokke med dato"
+  },
+  "resource" : [
+    "main.css",
+    "main.js"
+  ]
+}

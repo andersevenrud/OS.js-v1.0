@@ -1,0 +1,20 @@
+{
+  "type"    : "Application",
+  "name"    : "Test",
+  "schema"  : "schema.glade",
+  "category": "utilities",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "status/starred.png",
+  "title"   : {
+    "en_US"     : "WebWorker Test",
+    "nb_NO"     : "WebWorker Test"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js",
+    "worker.js"
+  ],
+  "compability" : []
+}

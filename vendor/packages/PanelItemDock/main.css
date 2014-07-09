@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*!
+ * OS.js - JavaScript Operating System - Contains PanelItemDock CSS
+ *
+ * Copyright (c) 2011-2012, Anders Evenrud <andersevenrud@gmail.com>
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met: 
+ * 
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer. 
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution. 
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+ * @package OSjs.Applications
+ * @author Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */
+
+.PanelItemLauncher {
+  margin : 0;
+  margin-left : 5px;
+  margin-right : 5px;
+  position : relative;
+  float : left;
+}
+.PanelItemLauncher img {
+  vertical-align : middle;
+}
+
+.DialogContent.PanelItemDock {
+  color : inherit;
+}
+.DialogContent.PanelItemDock .Wrap {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+  right : 0px;
+  height : 260px;
+  overflow : auto;
+}
+.DialogContent.PanelItemDock ul,
+.DialogContent.PanelItemDock li {
+  margin : 0;
+  padding : 0;
+  list-style-type : none;
+}
+.DialogContent.PanelItemDock li {
+  margin : 5px;
+}
+.DialogContent.PanelItemDock .Edit {
+  clear : both;
+}
+.DialogContent.PanelItemDock .Edit .label {
+  float : left;
+  width : 100px;
+}
+.DialogContent.PanelItemDock .Edit input {
+  width : 240px;
+}
+.DialogContent.PanelItemDock .Edit .buttons {
+  padding-left : 98px;
+}
+

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*!
+ * Application: PanelItemNotificationArea
+ *
+ * @package OSjs.PanelItems
+ * @author Anders Evenrud <andersevenrud@gmail.com>
+ * @licence Simplified BSD License
+ */
+
+.PanelItemNotificationArea {
+
+}
+
+.PanelItemNotificationArea .NotificationItem {
+  padding : 2px;
+}

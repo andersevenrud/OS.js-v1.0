@@ -13,7 +13,6 @@ public_html/media/Public/*
 config.php
 
 # Sub-modules
-src/packages
 vendor/*
 !vendor/launcher
 

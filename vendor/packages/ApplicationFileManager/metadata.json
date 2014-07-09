@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "FileManager",
+  "schema"  : "schema.glade",
+  "category": "utilities",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "apps/file-manager.png",
+  "title"   : {
+    "en_US"     : "File Manager",
+    "nb_NO"     : "Fil Behandler"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

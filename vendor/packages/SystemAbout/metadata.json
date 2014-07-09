@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "About",
+  "schema"  : "schema.glade",
+  "enabled" : true,
+  "system"  : true,
+  "category": "system",
+  "icon"    : "actions/gtk-about.png",
+  "title"   : {
+    "en_US"     : "About OS.js",
+    "nb_NO"     : "Om OS.js"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

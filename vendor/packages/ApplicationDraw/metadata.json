@@ -1,0 +1,23 @@
+{
+  "type"    : "Application",
+  "name"    : "Draw",
+  "schema"  : "schema.glade",
+  "category": "graphics",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "categories/gnome-graphics.png",
+  "title"   : {
+    "en_US"     : "Draw",
+    "nb_NO"     : "Tegne"
+  },
+  "mime"    : [
+    "image/*"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : [
+    "canvas"
+  ]
+}

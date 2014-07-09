@@ -1,0 +1,18 @@
+{
+  "type"    : "PanelItem",
+  "name"    : "Separator",
+  "enabled" : true,
+  "icon"    : "actions/gtk-remove.png",
+  "title"   : {
+    "en_US"     : "Separator",
+    "nb_NO"     : "Skille"
+  },
+  "description" : {
+    "en_US"   : "Separator",
+    "nb_NO"   : "Skille"
+  },
+  "resource" : [
+    "main.css",
+    "main.js"
+  ]
+}

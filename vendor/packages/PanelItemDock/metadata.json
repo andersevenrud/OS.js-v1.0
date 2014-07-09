@@ -1,0 +1,18 @@
+{
+  "type"    : "PanelItem",
+  "name"    : "Dock",
+  "enabled" : true,
+  "icon"    : "actions/system-run.png",
+  "title"   : {
+    "en_US"     : "Launcher Dock",
+    "nb_NO"     : "Launcher Dock"
+  },
+  "description" : {
+    "en_US"   : "Application Launcher Dock",
+    "nb_NO"   : "Application Launcher Dock"
+  },
+  "resource" : [
+    "main.css",
+    "main.js"
+  ]
+}

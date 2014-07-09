@@ -1,0 +1,23 @@
+{
+  "type"    : "Application",
+  "name"    : "Textpad",
+  "schema"  : "schema.glade",
+  "category": "office",
+  "enabled" : true,
+  "system"  : false,
+  "icon"    : "apps/text-editor.png",
+  "title"   : {
+    "en_US"     : "Textpad",
+    "nb_NO"     : "Notatblokk"
+  },
+  "mime"    : [
+    "text/*",
+    "inode/x-empty",
+    "application/x-empty"
+  ],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

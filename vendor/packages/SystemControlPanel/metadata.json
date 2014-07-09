@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "ControlPanel",
+  "schema"  : "schema.glade",
+  "enabled" : true,
+  "system"  : true,
+  "category": "system",
+  "icon"    : "categories/preferences-system.png",
+  "title"   : {
+    "en_US"     : "Control panel",
+    "nb_NO"     : "Kontrollpanel"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

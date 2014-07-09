@@ -1,0 +1,19 @@
+{
+  "type"    : "Application",
+  "name"    : "Logout",
+  "schema"  : "",
+  "enabled" : true,
+  "system"  : true,
+  "category": "system",
+  "icon"    : "actions/gnome-logout.png",
+  "title"   : {
+    "en_US"     : "Logout",
+    "nb_NO"     : "Utlogging"
+  },
+  "mime"    : [],
+  "resource" : [
+    "main.css",
+    "main.js"
+  ],
+  "compability" : []
+}

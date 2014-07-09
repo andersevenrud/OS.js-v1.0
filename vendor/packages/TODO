@@ -1,0 +1,18 @@
+APP TODO:
+-------------------------------------------------------------------------------
+* Drawing
+  - Does not work in FireFox
+  - REFACTOR: Application::_getResourceURL ???
+* SystemAbout
+  - Rewrite
+* Mailing
+  - Not Finished
+* Archiver
+  - Not Finished
+* Writer
+  - Not finished
+
+FLEXBOX CONVERSION:
+-------------------------------------------------------------------------------
+ApplicationIRC/
+ApplicationMail/

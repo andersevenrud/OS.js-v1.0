@@ -1,0 +1,18 @@
+{
+  "type"    : "PanelItem",
+  "name"    : "WindowList",
+  "enabled" : true,
+  "icon"    : "apps/xfwm4.png",
+  "title"   : {
+    "en_US"     : "Window List",
+    "nb_NO"     : "Vindu-liste"
+  },
+  "description" : {
+    "en_US"   : "Window Selection List",
+    "nb_NO"   : "Vindu valg-liste"
+  },
+  "resource" : [
+    "main.css",
+    "main.js"
+  ]
+}
