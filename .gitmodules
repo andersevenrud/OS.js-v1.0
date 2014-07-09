@@ -7,6 +7,3 @@
 [submodule "vendor/sound-theme-freedesktop-src"]
 	path = vendor/sound-theme-freedesktop-src
 	url = git://anongit.freedesktop.org/sound-theme-freedesktop
-[submodule "vendor/packages"]
-	path = vendor/packages
-	url = git@github.com:andersevenrud/OS.js-Packages.git
